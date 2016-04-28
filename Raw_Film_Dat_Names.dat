@@ -1,0 +1,84 @@
+Act 1 Scence 1
+4(L, Mes, H, B)	ext(C, Ben)
+g(L, DP, DJ, C, Ben, Bal, H, B)
+2(Ben, B)
+2(L, DJ)
+2(Ben, C)	ext(H)
+3(DP, C, Ben)	ext(H)
+2(DP, C)	ext(H)
+Act 1 Scence 2
+2(A, L)	ext(H, C, DP)
+Act 1 Scence 2
+2(Con, DJ)	ext(DP)
+3(Bor, Con, DJ)	ext(C, DP, H)
+Act 2 Scene 1
+4(L, A, B, H)	ext(DJ, Ben, C)
+2(DP, H)
+2(U, A)
+2(Bal, M)
+2(B, Ben)	ext(Ben)
+3(C, DJ, Bor)	ext(H, DP)
+1(C)	ext(DP, H)
+2(Ben, C)	ext(H, DP)
+1(Ben)	ext(B)
+2(Ben, DP)	ext(C, B)
+g(C, B, H, L, Ben, DP)
+2(DP, B)	ext(Ben)
+4(C, H, L, DP)	ext(B, Ben)
+Act 2 Scene 2 	DONE Out of order in film
+2(DJ, Bor)	ext(H, M, C, DP)
+Act 2 Scene 3
+1(Ben)	ext(C)
+2(DP, C)	ext(Ben)
+g(DP, C, L, Bal, Ben)
+3(C, DP, L)	ext(Ben, B)
+1(Ben)	ext(H, B) 
+2(Ben, B)
+1(Ben)	ext(B)
+Act 3 Scene 1
+3(H, M, U)	ext(B)
+2(H, U)	ext(B, Ben)
+1(B)	ext(Ben)
+Act 3 Scene 2 DONE (out of or oder or absent in film)
+4(DP, C, Ben, L)
+3(DP, C, DJ)	ext(H)
+Act 3 Scene 3   DONE
+g(Do, V, W, S)	ext(DP)
+g(S, Bor, Con, W)	ext(DJ)
+2(Bor, Con)	ext(DJ, DP, C, M, H)
+3(Bor, Con, S)
+Act 3 Scene 4 	DONE (not in movie)
+2(H, M)
+3(H, M, B)	ext(Ben)
+Act 3 Scene 5  	DONE
+3(L, Do, V)
+2(Do, V)	ext(S)
+Act 4 Scene 1 	DONE
+g(F, L, C, DJ, DP, Ben, H, B)
+g(F, L, Ben, H, B)	ext(C, DP)
+2(Ben, B)	ext(H, C) 
+Act 4 Scene 2 DONE
+g(Do, V, J, W, Con, Bor)	ext(DJ, H, C)
+g(Do, V, Con, W, Bor)
+Act 5 Scene 1 DONE
+2(A, L)	ext(C, H, DP)
+4(DP, C, A, L)	ext (H)
+3(DP, C, Ben)	ext(B, H, DJ)
+2(DP, C)	ext(B, Ben)
+g(DP, C, Do, V, W, Con, Bor)	ext(DJ, H, M)
+g(DP, C, Do, V, W, Con, Bor, L, A, J)	ext(H, DJ, M)
+g(DP, C, W, Con, Bor, L, A, J)	ext(H)
+Act 5 Scene 2 DONE Skipped or out of order
+2(Ben, M)	ext(B)
+1(Ben)
+2(Ben, B)	ext(C, H)
+3(Ben, U, B)	ext(H, C, DJ)
+Act 5 Scene 3 	DONE
+g(DP, C, L)	ext(H)
+Act 5 Scene 4
+g(L, A, Ben, B, M, U, F, H)	ext(DP, C, DJ)
+4(L, A, Ben, F)
+g(L, A, Ben, F, DP, C)
+g(L, Ben, F, DP, C)
+g(L, A, Ben, F, DP, C, A, H, B, M, U)
+END
